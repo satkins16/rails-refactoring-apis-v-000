@@ -18,6 +18,7 @@ describe 'GithubService' do
       @service = GithubService.new
       @service.authenticate!(ENV["GITHUB_CLIENT"], ENV["GITHUB_SECRET"], "20")
     end
+  end
 
 
 
